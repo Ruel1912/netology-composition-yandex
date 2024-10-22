@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body * {
+  width: 100%;
+  padding: 4px;
+  border-radius: 8px;
+  min-height: 30px;
+}
+
+.body p,
+.body span {
+  margin: 0;
+}
